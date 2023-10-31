@@ -1,10 +1,12 @@
 import './App.css'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './router/Router'
 
 function App() {
 
   return (
     <>
-      <h1>Welcome to Telecart BD</h1>
+      <RouterProvider router={router} />
     </>
   )
 }
