@@ -12,6 +12,7 @@ const Home: React.FC = () => {
                 {/* outlet */}
                 <div className='col-span-6'>
                     <h1>Outlet</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores distinctio sit id minima repudiandae laudantium, ut alias explicabo soluta unde ratione fugiat iste quasi debitis. Eius itaque facere consequatur provident.</p>
                 </div>
             </div>
         </div>
