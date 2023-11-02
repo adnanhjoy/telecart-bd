@@ -1,5 +1,6 @@
 import React from 'react'
 import Category from '../../components/home/sidebar/Category';
+import BannerSlider from '../../components/home/outlet/BannerSlider';
 
 const Home: React.FC = () => {
     return (
@@ -11,8 +12,7 @@ const Home: React.FC = () => {
                 </div>
                 {/* outlet */}
                 <div className='col-span-6'>
-                    <h1>Outlet</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores distinctio sit id minima repudiandae laudantium, ut alias explicabo soluta unde ratione fugiat iste quasi debitis. Eius itaque facere consequatur provident.</p>
+                    <BannerSlider />
                 </div>
             </div>
         </div>
