@@ -5,3 +5,7 @@
 body {
     background-color: #f5f5f5;
 }
+
+:where(.css-dev-only-do-not-override-qgg3xn).ant-rate .ant-rate-star:not(:last-child) {
+    margin-inline-end: 1px;
+}
