@@ -7,7 +7,7 @@ import CategorySection from '../../components/home/outlet/categorySection/Catego
 
 const Home: React.FC = () => {
     return (
-        <div className='container mx-auto mt-4'>
+        <div className='container mx-auto my-4'>
             <div className='grid grid-cols-8 gap-4'>
                 {/* sidebar */}
                 <div className='col-span-2 border'>
