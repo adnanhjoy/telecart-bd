@@ -2,6 +2,7 @@ import React from 'react'
 import Category from '../../components/home/sidebar/Category';
 import BannerSlider from '../../components/home/outlet/BannerSlider';
 import SearchSection from '../../components/home/outlet/searchSection/SearchSection';
+import ProductSection from '../../components/home/outlet/productSection/ProductSection';
 
 const Home: React.FC = () => {
     return (
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
                 <div className='col-span-6'>
                     <SearchSection />
                     <BannerSlider />
+                    <ProductSection />
                 </div>
             </div>
         </div>
