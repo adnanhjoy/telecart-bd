@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const WebNav: React.FC = () => {
     return (
         <div>
-            <ul className='flex items-center justify-center gap-4'>
+            <ul className='flex items-center justify-center gap-4 text-white'>
                 <li className='font-semibold'><Link to='/'>Home</Link></li>
                 <li className='font-semibold'><Link to='/shop'>Shop</Link></li>
                 <li className='font-semibold'><Link to='/blog'>Blog</Link></li>
