@@ -2,11 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BsTwitter } from 'react-icons/bs';
 import { BiLogoFacebook, BiLogoLinkedin } from 'react-icons/bi';
+import FooterProduct from '../../components/footer/FooterProduct';
 
 const Footer: React.FC = () => {
     return (
         <div className='bg-[#2c2c2c] text-gray-300 py-10'>
-            <div className='container mx-auto grid grid-cols-1 md:grid-cols-3'>
+            <div className='container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4'>
                 <div>
                     <div>
                         <p className='uppercase tracking-widest'>Comments</p>
@@ -21,6 +22,9 @@ const Footer: React.FC = () => {
                             <Link to=''><BsTwitter className="bg-[#32CCFE] text-4xl rounded-full text-white border-none p-1.5" /></Link>
                         </span>
                     </div>
+                </div>
+                <div>
+                    <FooterProduct />
                 </div>
             </div>
         </div>
