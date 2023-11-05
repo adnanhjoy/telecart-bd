@@ -3,7 +3,7 @@ import { Rate, Badge } from 'antd';
 
 const ProductCard: React.FC = () => {
     return (
-        <div className='border cursor-pointer hover:ring-1 hover:shadow bg-white rounded-md group'>
+        <div className='border cursor-pointer hover:ring-1 hover:shadow bg-white rounded-md group relative overflow-hidden'>
             <Badge.Ribbon text='off 10%' color='#f85606' className='text-xs'>
                 <img className='group-hover:scale-105 transition duration-300 transform' src="https://www.shopz.com.bd/wp-content/uploads/2021/12/LIGE-9866-Men-Quartz-Watch-1.jpg" alt="" />
                 <div className='p-2'>
