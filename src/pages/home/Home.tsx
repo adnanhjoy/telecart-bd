@@ -5,6 +5,7 @@ import SearchSection from '../../components/home/outlet/searchSection/SearchSect
 import ProductSection from '../../components/home/outlet/productSection/ProductSection';
 import CategorySection from '../../components/home/outlet/categorySection/CategorySection';
 import PopularProduct from '../../components/home/outlet/popularProduct/PopularProduct';
+import TopRatedProducts from '../../components/home/outlet/topRatedProducts/TopRatedProducts';
 
 const Home: React.FC = () => {
     return (
@@ -20,7 +21,8 @@ const Home: React.FC = () => {
                     <BannerSlider />
                     <CategorySection />
                     <ProductSection />
-                    <PopularProduct/>
+                    <PopularProduct />
+                    <TopRatedProducts />
                 </div>
             </div>
         </div>
