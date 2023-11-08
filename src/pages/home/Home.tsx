@@ -4,6 +4,7 @@ import BannerSlider from '../../components/home/outlet/BannerSlider';
 import SearchSection from '../../components/home/outlet/searchSection/SearchSection';
 import ProductSection from '../../components/home/outlet/productSection/ProductSection';
 import CategorySection from '../../components/home/outlet/categorySection/CategorySection';
+import PopularProduct from '../../components/home/outlet/popularProduct/PopularProduct';
 
 const Home: React.FC = () => {
     return (
@@ -19,6 +20,7 @@ const Home: React.FC = () => {
                     <BannerSlider />
                     <CategorySection />
                     <ProductSection />
+                    <PopularProduct/>
                 </div>
             </div>
         </div>

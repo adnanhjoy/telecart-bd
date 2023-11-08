@@ -9,3 +9,9 @@ body {
 :where(.css-dev-only-do-not-override-qgg3xn).ant-rate .ant-rate-star:not(:last-child) {
     margin-inline-end: 1px;
 }
+
+/* Custom styles for React Slick carousel buttons */
+.slick-prev:before, .slick-next:before{
+    color: black;
+}
+
