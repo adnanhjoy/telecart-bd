@@ -8,7 +8,7 @@ const Category: React.FC = () => {
         <div>
             <h1 className='bg-primary p-2 text-white font-semibold text-center rounded'>Category</h1>
             <ul className='relative'>
-                <li className='p-2 cursor-pointer hover:bg-yellow-50 w-full rounded group'>
+                <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
                         <Link to='/' className='block text-gray-500'>Electron Product</Link>
                         <MdOutlineKeyboardArrowRight />
@@ -22,7 +22,7 @@ const Category: React.FC = () => {
                         }
                     </ul>
                 </li>
-                <li className='p-2 cursor-pointer hover:bg-yellow-50 w-full rounded group'>
+                <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
                         <Link to='/' className='block text-gray-500'>Mens & Fashion</Link>
                         <MdOutlineKeyboardArrowRight />
@@ -36,7 +36,7 @@ const Category: React.FC = () => {
                         }
                     </ul>
                 </li>
-                <li className='p-2 cursor-pointer hover:bg-yellow-50 w-full rounded group'>
+                <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
                         <Link to='/' className='block text-gray-500'>Womens & Fashion</Link>
                         <MdOutlineKeyboardArrowRight />
@@ -50,7 +50,7 @@ const Category: React.FC = () => {
                         }
                     </ul>
                 </li>
-                <li className='p-2 cursor-pointer hover:bg-yellow-50 w-full rounded group'>
+                <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
                         <Link to='/' className='block text-gray-500'>Beauty & Health</Link>
                         <MdOutlineKeyboardArrowRight />
@@ -64,7 +64,7 @@ const Category: React.FC = () => {
                         }
                     </ul>
                 </li>
-                <li className='p-2 cursor-pointer hover:bg-yellow-50 w-full rounded group'>
+                <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
                         <Link to='/' className='block text-gray-500'>Mothers & Baby</Link>
                         <MdOutlineKeyboardArrowRight />
@@ -78,7 +78,7 @@ const Category: React.FC = () => {
                         }
                     </ul>
                 </li>
-                <li className='p-2 cursor-pointer hover:bg-yellow-50 w-full rounded group'>
+                <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
                         <Link to='/' className='block text-gray-500'>Home & Lifestyle</Link>
                         <MdOutlineKeyboardArrowRight />
@@ -92,7 +92,7 @@ const Category: React.FC = () => {
                         }
                     </ul>
                 </li>
-                <li className='p-2 cursor-pointer hover:bg-yellow-50 w-full rounded group'>
+                <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
                         <Link to='/' className='block text-gray-500'>Support & Outdoors</Link>
                         <MdOutlineKeyboardArrowRight />
