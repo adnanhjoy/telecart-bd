@@ -1,6 +1,6 @@
 import { Drawer } from 'antd';
 import React from 'react';
-import HorizontalProductCard from '../card/HorizontalProductCard';
+import CartProduct from '../card/CartProduct';
 
 
 interface CartDrawerProps {
@@ -15,7 +15,7 @@ const CartDrawer: React.FC<CartDrawerProps> = ({ onClose, drawerOpen }) => {
             <Drawer title="Cart" placement="right" onClose={onClose} open={drawerOpen}>
                 {
                     Array(4).fill(undefined).map((_, idx) =>
-                        <HorizontalProductCard 
+                        <CartProduct 
                         key={idx}
                         />
                     )
