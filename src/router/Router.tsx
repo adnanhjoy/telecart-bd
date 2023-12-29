@@ -6,8 +6,15 @@ import Shop from '../pages/shop/Shop'
 import Blog from '../pages/blog/Blog'
 import Contact from '../pages/contact/Contact'
 import AccountLayout from '../layout/AccountLayout'
-import Profile from '../pages/account/Profile'
 import MyAccount from '../pages/account/MyAccount'
+import ProfilePage from '../pages/account/Profile'
+import OrdersPage from '../pages/account/Orders'
+import CancelPage from '../pages/account/Cancel'
+import ReturnPage from '../pages/account/Return'
+import AddressPage from '../pages/account/AddressPage'
+import PasswordPage from '../pages/account/PasswordPage'
+import WishlistPage from '../pages/account/WishlistPage'
+import TransactionPage from '../pages/account/TransactionPage'
 
 export const router = createBrowserRouter([
     {
@@ -40,11 +47,39 @@ export const router = createBrowserRouter([
                 children: [
                     {
                         path: '/account',
-                        element: <MyAccount/>
+                        element: <MyAccount />
                     },
                     {
                         path: '/account/edit-profile',
-                        element: <Profile />
+                        element: <ProfilePage />
+                    },
+                    {
+                        path: '/account/order',
+                        element: <OrdersPage />
+                    },
+                    {
+                        path: '/account/cancel',
+                        element: <CancelPage />
+                    },
+                    {
+                        path: '/account/return',
+                        element: <ReturnPage />
+                    },
+                    {
+                        path: '/account/address',
+                        element: <AddressPage />
+                    },
+                    {
+                        path: '/account/password',
+                        element: <PasswordPage />
+                    },
+                    {
+                        path: '/account/wishlist',
+                        element: <WishlistPage />
+                    },
+                    {
+                        path: '/account/transaction',
+                        element: <TransactionPage />
                     }
                 ]
             },
