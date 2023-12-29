@@ -6,6 +6,8 @@ import Shop from '../pages/shop/Shop'
 import Blog from '../pages/blog/Blog'
 import Contact from '../pages/contact/Contact'
 import AccountLayout from '../layout/AccountLayout'
+import Profile from '../pages/account/Profile'
+import MyAccount from '../pages/account/MyAccount'
 
 export const router = createBrowserRouter([
     {
@@ -33,8 +35,18 @@ export const router = createBrowserRouter([
                 element: <About />
             },
             {
-                path: '/my-account',
-                element: <AccountLayout />
+                path: '/account',
+                element: <AccountLayout />,
+                children: [
+                    {
+                        path: '/account',
+                        element: <MyAccount/>
+                    },
+                    {
+                        path: '/account/edit-profile',
+                        element: <Profile />
+                    }
+                ]
             },
             {
                 path: '/contact',
