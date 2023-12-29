@@ -4,6 +4,7 @@
 
 body {
     background-color: #f5f5f5;
+    font-family: 'Poppins', sans-serif;
 }
 
 :where(.css-dev-only-do-not-override-qgg3xn).ant-rate .ant-rate-star:not(:last-child) {
