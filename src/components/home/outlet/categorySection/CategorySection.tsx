@@ -1,18 +1,20 @@
 import React from 'react';
 import CategoryCard from './CategoryCard';
+import Slider from 'react-slick';
+import { categorySettings } from '../../../../utilities/carousel.config';
 
 const CategorySection: React.FC = () => {
     return (
         <div className='mt-4'>
             <h5 className='font-semibold text-primary'>Product Category</h5>
-            <div className='grid grid-cols-2 md:grid-cols-9 gap-2'>
+            <Slider {...categorySettings}>
                 {
-                    Array(9).fill(null).map((_, index) =>
+                    Array(20).fill(null).map((_, index) =>
                         <CategoryCard
                             key={index}
                         />)
                 }
-            </div>
+            </Slider>
         </div>
     );
 };

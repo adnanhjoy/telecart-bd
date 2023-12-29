@@ -10,7 +10,7 @@ const Category: React.FC = () => {
             <ul className='relative'>
                 <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
-                        <Link to='/' className='block text-gray-500'>Electron Product</Link>
+                        <Link to='/' className='block text-dark'>Electron Product</Link>
                         <MdOutlineKeyboardArrowRight />
                     </span>
                     <ul className='absolute w-full left-full bg-white z-50 top-0 hidden group-hover:block'>
@@ -24,7 +24,7 @@ const Category: React.FC = () => {
                 </li>
                 <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
-                        <Link to='/' className='block text-gray-500'>Mens & Fashion</Link>
+                        <Link to='/' className='block text-dark'>Mens & Fashion</Link>
                         <MdOutlineKeyboardArrowRight />
                     </span>
                     <ul className='absolute w-full left-full bg-white z-50 top-0 hidden group-hover:block'>
@@ -38,7 +38,7 @@ const Category: React.FC = () => {
                 </li>
                 <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
-                        <Link to='/' className='block text-gray-500'>Womens & Fashion</Link>
+                        <Link to='/' className='block text-dark'>Womens & Fashion</Link>
                         <MdOutlineKeyboardArrowRight />
                     </span>
                     <ul className='absolute w-full left-full bg-white z-50 top-0 hidden group-hover:block'>
@@ -52,7 +52,7 @@ const Category: React.FC = () => {
                 </li>
                 <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
-                        <Link to='/' className='block text-gray-500'>Beauty & Health</Link>
+                        <Link to='/' className='block text-dark'>Beauty & Health</Link>
                         <MdOutlineKeyboardArrowRight />
                     </span>
                     <ul className='absolute w-full left-full bg-white z-50 top-0 hidden group-hover:block'>
@@ -66,7 +66,7 @@ const Category: React.FC = () => {
                 </li>
                 <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
-                        <Link to='/' className='block text-gray-500'>Mothers & Baby</Link>
+                        <Link to='/' className='block text-dark'>Mothers & Baby</Link>
                         <MdOutlineKeyboardArrowRight />
                     </span>
                     <ul className='absolute w-full left-full bg-white z-50 top-0 hidden group-hover:block'>
@@ -80,7 +80,7 @@ const Category: React.FC = () => {
                 </li>
                 <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
-                        <Link to='/' className='block text-gray-500'>Home & Lifestyle</Link>
+                        <Link to='/' className='block text-dark'>Home & Lifestyle</Link>
                         <MdOutlineKeyboardArrowRight />
                     </span>
                     <ul className='absolute w-full left-full bg-white z-50 top-0 hidden group-hover:block'>
@@ -94,7 +94,7 @@ const Category: React.FC = () => {
                 </li>
                 <li className='p-2 cursor-pointer hover:bg-gray-200 w-full rounded group'>
                     <span className='flex items-center justify-between'>
-                        <Link to='/' className='block text-gray-500'>Support & Outdoors</Link>
+                        <Link to='/' className='block text-dark'>Support & Outdoors</Link>
                         <MdOutlineKeyboardArrowRight />
                     </span>
                     <ul className='absolute w-full left-full bg-white z-50 top-0 hidden group-hover:block'>
