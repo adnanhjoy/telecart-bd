@@ -2,8 +2,8 @@ import React from 'react';
 
 const Profile: React.FC = () => {
     return (
-        <div>
-
+        <div className='border-t border-t-primary pt-4'>
+            <h1 className='text-2xl font-medium text-primary'>My Accoutn Details</h1>
         </div>
     );
 };
