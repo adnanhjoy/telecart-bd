@@ -4,8 +4,8 @@ import Home from '../pages/home/Home'
 import About from '../pages/about/About'
 import Shop from '../pages/shop/Shop'
 import Blog from '../pages/blog/Blog'
-import MyAccount from '../pages/account/MyAccount'
 import Contact from '../pages/contact/Contact'
+import AccountLayout from '../layout/AccountLayout'
 
 export const router = createBrowserRouter([
     {
@@ -34,12 +34,12 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/my-account',
-                element: <MyAccount />
+                element: <AccountLayout />
             },
             {
                 path: '/contact',
                 element: <Contact />
-            }
+            },
         ]
     }
 ])
